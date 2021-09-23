@@ -206,7 +206,6 @@ do
 
 		case 5:
 			printf("Adios!");
-			exit(-1);
 		break;
 
 		default:
