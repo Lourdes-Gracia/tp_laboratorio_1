@@ -15,12 +15,12 @@ c) Calcular la division (A/B)
 d) Calcular la multiplicacion (A*B)
 e) Calcular el factorial (A!)
 4. Informar resultados
-a) “El resultado de A+B es: r”
-b) “El resultado de A-B es: r”
-c) “El resultado de A/B es: r” o “No es posible dividir por cero”
-d) “El resultado de A*B es: r”
-e) “El factorial de A es: r1 "
-f) "El factorial de B es: r2”
+a) â€œEl resultado de A+B es: râ€�
+b) â€œEl resultado de A-B es: râ€�
+c) â€œEl resultado de A/B es: râ€� o â€œNo es posible dividir por ceroâ€�
+d) â€œEl resultado de A*B es: râ€�
+e) â€œEl factorial de A es: r1 "
+f) "El factorial de B es: r2â€�
 5. Salir
  ============================================================================
  */
@@ -53,7 +53,7 @@ do
 	// Limpia pantalla
 	system("cls");
 
-	// Menú
+	// Menu
 	printf("\n ======= Menu ====== \n");
 	printf("Por favor, seleccione una opcion:\n");
 

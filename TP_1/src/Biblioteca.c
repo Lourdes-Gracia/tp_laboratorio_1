@@ -70,44 +70,26 @@ float division (int primerNumero, int segundoNumero)
 }
 
 
-int factorialPrimerNumero (int primerNumero)
+int factorial (int numero)
 {
 
-	int factPrimerNumero;
+	int factNumero;
 	int fact;
 	int i;
-	factPrimerNumero = 0;
+	factNumero = 0;
 	fact = 1;
 
 
-	for (i = 1; i <= primerNumero; ++i)
+	for (i = 1; i <= numero; ++i)
 	{
 		fact =  fact * i;
 	}
-	factPrimerNumero = fact;
+	factNumero = fact;
 
-	return factPrimerNumero;
+	return factNumero;
 
 }
 
-int factorialSegundoNumero (int segundoNumero)
-{
-	int factSegundoNumero;
-	int fact;
-	int i;
-
-	factSegundoNumero = 0 ;
-	fact = 1;
-
-
-	for (i = 1; i <= segundoNumero; ++i)
-	{
-		fact =  fact * i;
-	}
-	factSegundoNumero = fact;
-
-	return factSegundoNumero;
-}
 
 void mensaje (int primerNumero, int segundoNumero)
 {
@@ -136,7 +118,7 @@ void mensaje (int primerNumero, int segundoNumero)
 			}
 			else
 			{
-				printf("e) El factorial de %d es %d\n", primerNumero, factorialPrimerNumero (primerNumero));
+				printf("e) El factorial de %d es %d\n", primerNumero, factorial (primerNumero));
 			}
 
 			if (segundoNumero < 0)
@@ -149,6 +131,6 @@ void mensaje (int primerNumero, int segundoNumero)
 			}
 			else
 			{
-				printf("f) El factorial de %d es %d\n", segundoNumero, factorialSegundoNumero (segundoNumero));
+				printf("f) El factorial de %d es %d\n", segundoNumero, factorial (segundoNumero));
 			}
 }
